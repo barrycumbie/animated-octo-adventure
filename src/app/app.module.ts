@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { DevTeamComponent } from './dev-team/dev-team.component';
+import { ComponentScheduleComponent } from './component-schedule/component-schedule.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DevTeamComponent
+    DevTeamComponent,
+    ComponentScheduleComponent
   ],
   imports: [
     BrowserModule
