@@ -1,9 +1,10 @@
 const express = require('express')
 const app = express()
+const path = require('path'); 
 
 app.get('/', function (req, res) {
     
-  res.send('Hello World fr Express')
+  res.sendFile(path.join(process.cwd(),'index.html')); 
 })
 
 
