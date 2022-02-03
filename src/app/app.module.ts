@@ -10,6 +10,7 @@ import { ComponentScheduleComponent } from './component-schedule/component-sched
 import { FooterComponent } from './footer/footer.component';
 import { MemeComponent } from './meme/meme.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,8 +21,7 @@ import { MemeComponent } from './meme/meme.component';
     PolicyFinderComponent,
     ComponentScheduleComponent,
     FooterComponent,
-    MemeComponent,
-    ComponentScheduleComponent,
+    MemeComponent
   ],
   imports: [
     BrowserModule
