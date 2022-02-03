@@ -8,7 +8,9 @@ import { WeatherComponent } from './weather/weather.component';
 import { PolicyFinderComponent } from './policy-finder/policy-finder.component';
 import { ComponentScheduleComponent } from './component-schedule/component-schedule.component';
 import { FooterComponent } from './footer/footer.component';
+
 import { MemeComponent } from './meme/meme.component';
+
 
 
 @NgModule({
@@ -19,9 +21,20 @@ import { MemeComponent } from './meme/meme.component';
     TagComponentComponent,
     WeatherComponent,
     PolicyFinderComponent,
+
+
     ComponentScheduleComponent,
     FooterComponent,
+
+
+    ComponentScheduleComponent,
+
+
+    ComponentScheduleComponent,
+    FooterComponent
+
     MemeComponent
+
   ],
   imports: [
     BrowserModule
