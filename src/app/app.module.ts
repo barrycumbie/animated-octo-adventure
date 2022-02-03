@@ -9,6 +9,9 @@ import { PolicyFinderComponent } from './policy-finder/policy-finder.component';
 import { ComponentScheduleComponent } from './component-schedule/component-schedule.component';
 import { FooterComponent } from './footer/footer.component';
 
+import { MemeComponent } from './meme/meme.component';
+
+
 
 @NgModule({
   declarations: [
@@ -23,11 +26,14 @@ import { FooterComponent } from './footer/footer.component';
     ComponentScheduleComponent,
     FooterComponent,
 
+
     ComponentScheduleComponent,
 
 
     ComponentScheduleComponent,
     FooterComponent
+
+    MemeComponent
 
   ],
   imports: [
