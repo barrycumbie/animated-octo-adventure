@@ -8,6 +8,8 @@ import { WeatherComponent } from './weather/weather.component';
 import { PolicyFinderComponent } from './policy-finder/policy-finder.component';
 import { ComponentScheduleComponent } from './component-schedule/component-schedule.component';
 import { FooterComponent } from './footer/footer.component';
+import { MemeComponent } from './meme/meme.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,6 +20,8 @@ import { FooterComponent } from './footer/footer.component';
     PolicyFinderComponent,
     ComponentScheduleComponent,
     FooterComponent,
+    MemeComponent,
+    ComponentScheduleComponent,
   ],
   imports: [
     BrowserModule
