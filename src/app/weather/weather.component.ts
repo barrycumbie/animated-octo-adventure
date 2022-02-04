@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Weather } from '../app.component'
+
+import { Weather} from '../app.component';
 
 @Component({
   selector: 'app-weather',
@@ -9,12 +10,14 @@ import { Weather } from '../app.component'
 
 export class WeatherComponent {
   weather: Weather = {
-    city: "Los Angeles",
-    conditions: "Sunny",
-    temperature: 70,
-    icon: ""
+  city: "Florence",
+  conditions: "Sunny",
+  temperature: 70,
+  icon: ""
   }
 }
+
+
 // export class WeatherComponent implements OnInit {
 
 //   constructor() { }

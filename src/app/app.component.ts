@@ -1,11 +1,14 @@
 import { Component } from '@angular/core';
 
-export class Weather{
+
+
+export class Weather {
   city: String
   conditions: String
   temperature: number
   icon: String
 }
+
 
 @Component({
   selector: 'app-root',
@@ -13,5 +16,5 @@ export class Weather{
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'mean-app';
+  title = 'weather';
 }
