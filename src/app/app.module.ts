@@ -31,7 +31,7 @@ import { MemeComponent } from './meme/meme.component';
 
 
     ComponentScheduleComponent,
-    FooterComponent
+    FooterComponent,
 
     MemeComponent
 
