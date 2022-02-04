@@ -21,6 +21,11 @@
         "@angular/platform-browser": "~13.1.0",
         "@angular/platform-browser-dynamic": "~13.1.0",
         "@angular/router": "~13.1.0",
+<<<<<<< HEAD
+=======
+        "angular": "^1.8.2",
+        "bootstrap": "^5.1.3",
+>>>>>>> 6a206dad4a858b5dccf57e5119d11f64c51ff307
         "express": "^4.17.2",
         "rxjs": "~7.4.0",
         "tslib": "^2.3.0",
