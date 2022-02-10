@@ -1,0 +1,11 @@
+<p>
+  degree works!
+</p>
+
+<div ng-app="" class="calculate" ng-init="[celsius];formula=1.8" > 
+  <h3>Celsius to Farenheit Calulator</h3>
+<br>
+    Celsius : 
+    <input ng-model="celsius" type="number"><br>
+  <br><h4>Farenheit: <span ng-bind="(celsius * formula) + 32"></span></h4>
+</div>
