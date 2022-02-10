@@ -1,0 +1,34 @@
+body {
+    background-color: #F28123;
+  }
+  
+  .calculate, .calculate2 {
+    color: #D34E24;
+    width: 500px;
+    margin: 20px;
+    padding: 30px;
+    background-color: #F7F052;
+    border-radius: 10px;
+    float: left;
+  }
+  
+  .calculate h3, .calculate2 h3{
+    
+    color: #38726C;
+  }
+  
+  .calculate h4, .calculate2 h4 {
+    
+    color: #D34E24;
+  }
+  input {
+    padding: 5px;
+    border-radius: 5px;
+    border-style: none;
+  }
+  
+  input:focus {
+    border: #563F1B solid 2px;
+  }
+  
+  
